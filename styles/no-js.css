@@ -1,0 +1,9 @@
+.slider {
+    flex-direction: column;
+    gap: 18rem;
+}
+
+.nav-container {
+    z-index: 9999;
+
+}

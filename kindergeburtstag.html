@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwimmspaß in Wasserland | Kindergeburtstag</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/geburtstag.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body class="text-primary">
+    <div class="nav-container">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="./index.html" class="logo"><img src="./assets/images/Logo.png" alt="Schwimmspaß Logo"></a>
+                <button class="mobile-nav" aria-controls="primary-navigation" aria-expanded="false">
+                    <img class="icon-open" src="./assets/svg/menu_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="icon open"
+                        aria-hidden="true">
+                    <img class="icon-close" src="./assets/svg/close_FILL0_wght400_GRAD0_opsz48 (1).svg"
+                        alt="icon closed" aria-hidden="true">
+                    <span class="screenreader-only">Menü</span></button>
+                <nav class="primary-navigation" id="primary-navigation">
+                    <ul aria-label="Primary" role="list" class="nav-list">
+                        <li><a href="./AngeboteEvents.html">Angebote + Events</a></li>
+                        <li><a href="./preise_zeiten.html">Öffnungszeiten + Preise</a></li>
+
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <button class="button button-mobile border-gradient text-blue">Kontakt</button>
+        </div>
+    </div>
+    <header class="header-wave">
+
+        <div class="header-wrapper">
+            <h1 class="text-medium">KINDERGEBURTSTAG
+                FEIERN</h1>
+
+        </div>
+        <div class="wave-background"></div>
+    </header>
+
+    <main>
+        <section class="wave-container text-primary">
+            <div class="wrapper">
+                <div class="introduction-text">
+                    <h2 class="section-title"><span class="text-gradient">Kindergeburtstag feiern</span>
+                    </h2>
+                    <p>Stellen Sie Ihre Wunschliste zusammen und wir machen Ihnen ein Preisangebot.
+                    </p><br>
+                    <p>
+                        Sie können zwischen drei Animationen wählen: Altersgerechte Wasserballspiele, Nach verborgenen
+                        Schätzen tauchen, Spielerisches Wettschwimmen.
+                    </p>
+                    <p><br>
+                        Außerdem gibt es ein Programm mit oder ohne Fotobegleitung, mit oder ohne Bewirtung.
+                        Informieren Sie uns, wie viele Kinder und wie viele Erwachsene an dem Event teilnehmen werden.
+                        Und besprechen Sie mit uns Ihren Lieblingstermin.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <!-- <section class="wave">
+            <form action="#">
+                <div class="wrapper">
+                    <div class="left">
+                        <h3 class="h3-form">Meine Wunschliste für den Kindergeburtstag:</h3>
+                        <div class="label-wrapper">
+                            <input type="radio" id="mit-bewirtung" value="Mit Bewirtung" name="bewirtung">
+                            <label for="bewirtung">Mit Bewirtung
+                                (Sie erstellen das Menü)</label>
+
+
+                            <input type="radio" id="ohne-bewirtung" value="Ohne Bewirtung" name="bewirtung">
+                            <label for="bewirtung">Ohne Bewirtung</label>
+                        </div>
+                        <div class="label-wrapper">
+                            <input type="radio" id="mit-animation" value="Mit Animation" name="animation">
+                            <label for="animation">Mit Animation</label>
+
+
+                            <input type="radio" id="ohne-animation" value="Ohne Animation" name="animation">
+                            <label for="animation">Ohne Animation,</label>
+                        </div>
+                        <div class="label-wrapper">
+                            <input type="checkbox" id="fotobegleitung" value="Mit Fotobegleitung" name="fotobegleitung">
+                            <label for="fotobegleitunf">Mit Fotobegleitung</label>
+                        </div>
+                        <hr>
+                        <h4 class="text-semibold">Animationen</h4>
+                        <div class="label-wrapper animationen">
+                            <input type="checkbox" id="wasserspiele" value="Wasserspiele" name="Animationen">
+                            <label for="animationen">Altersgerechte Wasserballspiele </label>
+
+
+                            <input type="checkbox" id="schaetze" value="schaetze" name="Animationen">
+                            <label for="animationen">Nach verborgenen Schätzen tauchen </label>
+
+
+                            <input type="checkbox" id="wettschwimmen" value="wettschwimmen" name="Animationen">
+                            <label for="animationen">Spielerisches Wettschwimmen </label>
+                        </div>
+                        <hr>
+
+
+                        <h4 class="text-semibold">Essen</h4>
+                        <div class="label-wrapper animationen ">
+                            <input type="checkbox" id="pommes" value="pommes" name="Essen">
+                            <label class="essen" for="pommes">Pommes</label>
+
+
+                            <input type="checkbox" id="veg-wuerstschen" value="veg-wuerstchen" name="Essen">
+                            <label for="veg-wuerstchen">Vegetarische Würstchen</label>
+                        </div>
+                        <div class="label-wrapper animationen">
+                            <input type="checkbox" id="wuerstchen" value="wuerstchen" name="Essen">
+                            <label class="essen" for="wuerstchen" id="wuerstchen-label">Würstchen</label>
+                            <input type="checkbox" id="veg-bratling" value="veg-bratling" name="Essen">
+                            <label for="veg-bratling">Vegetarischer Bratling </label>
+
+                        </div>
+                        <div class="label-wrapper animationen">
+                            <input type="checkbox" id="Schnitzel" value="Schnitzel" name="Essen">
+                            <label class="essen" for="schnitzel">Schnitzel</label>
+                            <input type="checkbox" id="spaghetti" value="spaghetti" name="Essen">
+                            <label for="spaghetti">Spaghetti mit Tomatensoße </label>
+
+                        </div>
+                        <hr>
+                        <h4 class="text-semibold">Trinken</h4>
+                        <div class="label-wrapper animationen">
+                            <input type="checkbox" id="still-wasser" value="wasser-still" name="Trinken">
+                            <label for="still-wasser">Wasser (Still)</label>
+
+
+                            <input type="checkbox" id="medium-wasser" value="medium-wasser" name="Trinken">
+                            <label for="med-wasser">Wasser (Medium)</label>
+                        </div>
+                        <div class="label-wrapper animationen">
+                            <input type="checkbox" id="apfelsaft" value="apfelsaft" name="Trinken">
+                            <label for="apfelsaft" id="apfelsaft-label">Apfelsaft</label>
+                            <input type="checkbox" id="orangensaft" value="orangensaft" name="Trinken">
+                            <label for="orangensaft">Orangensaft </label>
+
+                        </div>
+                        <h4 class="text-semibold">Limonaden</h4>
+                        <div class="label-wrapper animationen">
+                            <input type="checkbox" id="zitrone" value="zitrone" name="Trinken">
+                            <label class="trinken" for="zitrone">Zitrone</label>
+
+
+                            <input type="checkbox" id="orange" value="orange" name="Trinken">
+                            <label for="orange">Orange</label>
+                        </div>
+                        <div class="label-wrapper animationen">
+                            <input type="checkbox" id="himbeere" value="Himbeere" name="Trinken">
+                            <label class="margin-waldmeister" for="himbeere">Himbeere</label>
+                            <input type="checkbox" id="waldmeister" value="Waldmeister" name="Trinken">
+                            <label for="waldmeister">Waldmeister </label>
+
+                        </div>
+
+                    </div>
+                    <div class="right">
+                        <h3 class="h3-form">Angaben zur Person:</h3>
+                        <div class="label-wrapper">
+                            <label for="Anrede">Anrede</label>
+                            <select name="anrede" id="anrede">
+                                <option value="herr">Herr</option>
+                                <option value="frau">Frau</option>
+                                <option value="divers">Divers</option>
+                            </select>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="vorname">Vorname *</label>
+                            <input type="text" id="vorname" name="vorname" required>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="nachname">Nachname *</label>
+                            <input type="text" id="nachname" name="nachname" required>
+                        </div>
+                        <div class="label-wrapper">
+                            <label id="email" for="email">E-Mail-Adresse *</label>
+                            <input type="email" id="mail" name="mail" required>
+                        </div>
+                        <div class="label-wrapper telefon">
+                            <label for="telefon" id="tel">Telefonnummer *</label>
+                            <input type="tel" id="telefon" name="telefon" required>
+                        </div>
+                        <h3 class="h3-form">Wunschtermin: *</h3>
+                        <div class="label-wrapper">
+                            <label for="Tag" class="margin-right">Tag</label>
+                            <select name="tag" id="tag" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                            <label for="monat" class="margin-right">Monat</label>
+                            <select name="monat" id="monat" required>
+                                <option value="Januar">Januar</option>
+                                <option value="Februar">Februar</option>
+                                <option value="März">März</option>
+                                <option value="April">April</option>
+                                <option value="Mai">Mai</option>
+                                <option value="Juni">Juni</option>
+                                <option value="Juli">Juli</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="Oktober">Oktober</option>
+                                <option value="November">November</option>
+                                <option value="Dezember">Dezember</option>
+                            </select>
+                            <label for="jahr" class="margin-right">Jahr</label>
+                            <select name="jahr" id="jahr" required>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                            </select>
+                        </div>
+                        <h3 class="h3-form">Personenanzahl:</h3>
+                        <div class="label-wrapper">
+                            <label for="erwachsene" class="margin-right">Erwachsene</label>
+                            <input type="text" id="erwachsene" name="erwachsene">
+
+                        </div>
+                        <div class="label-wrapper"><label for="kinder" class="margin-right left">Kinder</label>
+                            <input type="text" id="kinder" name="kinder">
+                        </div>
+
+                        <p id="pflicht">*Pflichtfelder</p>
+                        <div class="label-wrapper">
+
+                            <button class="button button-form type=" submit">Anfrage
+                                senden</button>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </form>
+        </section> -->
+    </main>
+    <footer>
+        <nav class="footer-nav">
+            <div class="container">
+                <div class="columns">
+                    <div>
+                        <a href="#"><img src="./assets/images/Logo.png" alt="Schwimmspaß Logo"></a>
+                    </div>
+                    <div>
+                        <ul class="footer" aria-label="Footer" role="list">
+                            <li>
+                                <p><strong class="text-semibold">Schwimmspaß GmbH</strong> <br>Badstraße 5<br>
+                                    50555 Wasserland<br>
+                                    Tel: 0011/2200-0<br>
+                                    info@schwimmspass-wasserland.de</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <ul aria-label="Links Footer" role="list">
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>
+                            <li><a href="datenschutz.html">Datenschutz</a></li>
+                        </ul>
+                    </div>
+                    <div class="times">
+                        <ul class="times" aria-label="Öffnungszeiten Footer" role="list">
+                            <li>
+                                <p><strong class="text-semibold">Freibadsaison 2023:</strong><br>
+                                    Von Donnerstag, 18. Mai bis Ende September (wetterabhängig).</p>
+                            </li>
+                            <div class="container-footer">
+                                <div>
+                                    <li>
+                                        <p>Mo, Di, Mi, Fr, So
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Do und Sa</p>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li>
+                                        <p>10 Uhr bis 18 Uhr
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>10 Uhr bis 21:30 Uhr</p>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="times">
+                        <ul class="times-innenbereich" role="list">
+                            <li>
+                                <p><strong class="text-semibold">Öffnungszeiten Innenbereich:</strong></p>
+                            </li>
+                            <div class="container-footer">
+                                <div>
+                                    <li>
+                                        <p>Frühschwimmer
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Mo, Di, Mi, Fr, So
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Do und Sa </p>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li>
+                                        <p>
+                                            6 Uhr bis 9 Uhr
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>9 Uhr bis 19 Uhr
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>10 Uhr bis 22 Uhr</p>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
