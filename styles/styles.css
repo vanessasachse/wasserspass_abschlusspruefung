@@ -283,6 +283,7 @@ body {
 
     .nav-wrapper {
         justify-content: space-between;
+        margin-inline: 2rem;
     }
 
     .mobile-nav {
